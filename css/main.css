@@ -1,0 +1,105 @@
+/* COMMON */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+input {
+  outline: none;
+}
+
+img {
+  display: block;
+}
+
+.inner {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+}
+
+header > .inner {
+  height: 60px;
+}
+
+header .header-top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+header .header-top .logo {
+  position: absolute;
+  left: 0;
+  width: 110px;
+}
+
+header .header-top .logo .home {
+}
+
+header .logo .home img {
+}
+
+header .header-top .search {
+  position: absolute;
+  left: 50%;
+  width: 268px;
+  height: 36px;
+  transform: translateX(-50%);
+}
+
+header .header-top .search .material-icons {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  bottom: 0;
+  width: 24px;
+  height: 24px;
+  margin: auto 0;
+  color: #427cec;
+}
+
+header .header-top .search > input {
+  width: 322px;
+  height: 36px;
+  border: 2px solid #427cec;
+  border-radius: 12px;
+  background-color: transparent;
+  padding: 0 40px;
+}
+
+header .header-top .main-gnb {
+  position: absolute;
+  right: 0;
+  display: flex;
+}
+
+header .header-top .main-gnb a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  margin-left: 20px;
+  padding: 4px;
+  color: #333;
+}
+
+header .header-top .main-gnb a:first-child {
+  margin-left: 0;
+}
+
+header .header-top .main-gnb a > i {
+  font-size: 24px;
+}
