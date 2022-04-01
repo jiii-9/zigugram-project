@@ -49,7 +49,7 @@
             <a href="javascript:void(0)" class="heart">
               <i class="material-icons-outlined"> favorite_border </i>
             </a>
-            <a href="./login.html" class="user">
+            <a href="./signin/login.html" class="user">
               <i class="material-icons-outlined"> person_outline </i>
             </a>
           </nav>
@@ -60,7 +60,7 @@
     <main class="contents">
       <div class="inner">
         <div class="feed">
-          <div class="profile">
+          <div class="feed-profile">
             <img src="./image/user-profile.jpg" alt="user profile image" />
             <span class="profile__user-name">zigugram</span>
           </div>
@@ -70,18 +70,41 @@
           </div>
 
           <div class="feed-icon">
-            <i class="far fa-heart"></i>
-            <i class="far fa-paper-plane"></i>
-            <i class="far fa-bookmark"></i>
+            <div class="icon-item">
+              <i class="far fa-heart"></i>
+            </div>
+            <div class="icon-item">
+              <i class="far fa-paper-plane"></i>
+            </div>
+            <div class="icon-item">
+              <i class="far fa-bookmark"></i>
+            </div>
           </div>
 
-          <div class="feed-content">
-            <span class="comment__user-name">zigugram</span>
-            <p class="comment">asdfasdfasdfasdfadf</p>
+          <div class="feed-comments">
+            <div class="comments__like">
+              <span class="like">좋아요</span>
+              <span class="like-count">9,999개</span>
+            </div>
+
+            <div class="comments__content">
+              <div class="content__item">
+                <span class="comments__user-name">zigugram</span>
+                <p>asdfasdfasdfasdfadf ...</p>
+                <span class="comments__more">더 보기</span>
+              </div>
+              <span class="comments__all">댓글 2,300개 모두 보기</span>
+            </div>
+
+            <div class="comments__minute">
+              <span>10분 전</span>
+            </div>
           </div>
 
-          <div class="feed-comment">
+          <div class="feed-input">
             <i class="material-icons-outlined"> sentiment_satisfied </i>
+            <input type="text" class="comment-input" placeholder="댓글 쓰기" />
+            <button type="button">댓글달기</button>
           </div>
         </div>
       </div>
