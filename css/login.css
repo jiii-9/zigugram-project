@@ -41,7 +41,7 @@ img {
   top: 50%;
   left: 50%;
   width: 300px;
-  height: 260px;
+  height: 290px;
   transform: translate(-50%, -50%);
 }
 
@@ -68,7 +68,7 @@ img {
   width: 300px;
   height: 40px;
   padding: 0 30px 0 10px;
-  border: 2px solid #98b2e4;
+  border: 1px solid #98b2e4;
   border-radius: 6px;
   transition: all 0.2s ease-in-out;
 }
@@ -126,9 +126,34 @@ img {
   background-color: #427cec;
 }
 
+.login .signup {
+  position: absolute;
+  top: 234px;
+  width: 100%;
+}
+
+.login .signup .signup-btn {
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid #427cec;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #427cec;
+  letter-spacing: .1em;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.login .signup .signup-btn:hover {
+  color: #f7f7f7;
+  background-color: #427cec; 
+}
+
 .login .forget {
   position: absolute;
-  top: 239px;
+  bottom: 0px;
   left: 50%;
   display: flex;
   transform: translateX(-50%);
@@ -165,3 +190,4 @@ img {
 
 .login .forget .pw-search {
 }
+
